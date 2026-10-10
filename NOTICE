@@ -1,0 +1,9 @@
+technicalindicators-takt bundles and depends on:
+- technicalindicators 3.1.0 (https://github.com/anandanand84/technicalindicators), MIT licence,
+  copyright (c) 2016 Anand Aravindan. It is installed unchanged as the dependency
+  "technicalindicators-original" and provides every function of this package's API.
+- a native core (prebuilds/linux-x64/takt-ti.node) and a JavaScript layer (index.js, lib/) by TAKT
+  (ABX DEVELOPMENT LLP, https://taktcycles.com). The native core reimplements SMA, EMA, WMA, WEMA, RSI,
+  SD, BollingerBands, MACD, ATR, ADX, CCI and Stochastic of technicalindicators 3.1.0 with identical
+  results; its source is not published.
+Not affiliated with or endorsed by the technicalindicators project or its author.
